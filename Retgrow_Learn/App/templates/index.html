@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid text-indigo py-5 mx-auto text-center">
+    <h1 class="mb-3"><strong>Retgrow Learn</strong></h1>
+    <h6>Discover your path in tech!</h6>
+    <button type="button" data-bs-toggle="modal" href="#signUpModal" class="btn btn-lg btn-light btn-outline-indigo rounded-pill mt-3"><strong>Get
+            started</strong></button>
+</div>
+
+<div class="container text-indigo py-2">
+    <hr />
+    <h3 class="py-3"><strong>Start Learning</strong></h3>
+    <hr />
+    <div class="row mb-5">
+        <div class="col-lg-4 mb-3">
+            <div class="card h-100" style="width:100%">
+                <img class="card-img-top" src="static/img/index1.jpg" alt="Card image"
+                    style="width:100%; aspect-ratio: 10/7;">
+                <div class="card-body">
+                    <p class="card-text">Gain knowledge by enrolling in tech courses. All you need is the passion
+                        for
+                        learning.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <div class="card h-100" style="width:100%">
+                <img class="card-img-top" src="static/img/index2.jpg" alt="Card image"
+                    style="width:100%; aspect-ratio: 10/7;">
+                <div class="card-body">
+                    <p class="card-text">Retgrow learn supports students in acquiring tech skills through
+                        interactive
+                        courses and resources. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <div class="card h-100" style="width:100%">
+                <img class="card-img-top" src="static/img/index3.jpg" alt="Card image"
+                    style="width:100%; aspect-ratio: 10/7;">
+                <div class="card-body">
+                    <p class="card-text">Join a community that's shaping the future of tech education.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
