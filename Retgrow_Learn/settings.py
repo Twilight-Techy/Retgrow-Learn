@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ie%6942on@vge1(4tc+k!nzl_7aaj0d3ah!etg=xb@^c0ad9@s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['retgrow-learn.onrender.com']
+ALLOWED_HOSTS = ['retgrow-learn.onrender.com', '0.0.0.0', 'localhost']
 
 
 # Application definition
