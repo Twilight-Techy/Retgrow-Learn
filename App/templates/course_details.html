@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<div class="container text-indigo py-2">
+<div class="container text-indigo py-2 text-justify">
     <hr />
     <div class="d-flex fex-row">
         <h3 class="py-3"><strong>{{ course.name }}</strong></h3>
@@ -16,7 +16,7 @@
             <hr />
             <h4 class="my-4">{{ level.level_name }}</h4>
             <hr />
-            <div class="ms-3">
+            <div>
             {% for module in level.modules %}
                 <h5 class="mt-4">{{ forloop.counter }}. {{ module.module_name }}</h5>
                 <ul class="mt-3">
