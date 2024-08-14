@@ -23,9 +23,9 @@
                     {% for task in module.tasks %}
                         <li>
                             <div class="mb-3">
-                                <p>
+                                <h6>
                                     <strong>{{ task.task_name }}</strong>
-                                </p>
+                                </h6>
                                 <p class="text-justify">{{ task.description }}</p>
                                 {% if task.link %}
                                         <a type="button" href="{{ task.link }}" class="btn btn-lg btn-light btn-outline-indigo rounded-pill"><h6>{{ task.link_name }}</h6></a>
