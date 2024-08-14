@@ -3,7 +3,7 @@
 
 {% block content %}
 
-<div class="container text-indigo py-2 text-justify">
+<div class="container text-indigo py-2">
     <hr />
     <div class="d-flex fex-row">
         <h3 class="py-3"><strong>{{ course.name }}</strong></h3>
@@ -26,7 +26,7 @@
                                 <p>
                                     <strong>{{ task.task_name }}</strong>
                                 </p>
-                                <p>{{ task.description }}</p>
+                                <p class="text-justify">{{ task.description }}</p>
                                 {% if task.link %}
                                         <a type="button" href="{{ task.link }}" class="btn btn-lg btn-light btn-outline-indigo rounded-pill"><h6>{{ task.link_name }}</h6></a>
                                 {% endif %}
