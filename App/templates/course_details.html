@@ -16,12 +16,12 @@
             <hr />
             <h4 class="my-4">{{ level.level_name }}</h4>
             <hr />
-            <div class="mx-3 px-3">
+            <div class="ms-3">
             {% for module in level.modules %}
                 <h5 class="mt-4">{{ forloop.counter }}. {{ module.module_name }}</h5>
                 <ul class="mt-3">
                     {% for task in module.tasks %}
-                        <li class="mx-3 px-3">
+                        <li>
                             <div class="mb-3">
                                 <p>
                                     <strong>{{ task.task_name }}</strong>
