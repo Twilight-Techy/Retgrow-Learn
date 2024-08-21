@@ -1,2 +1,2 @@
 # Retgrow-Learn
-Web app built for Retgrow Foundation to aid students' tech learning journey.
+Web app built for Retgrow Initiative to aid students' tech learning journey.
